@@ -13,7 +13,7 @@
                 <div class="news-block col-lg-4 col-md-6 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="news-details.html"><img src="../assets/images/resource/news-1.jpg"
+                            <figure class="image"><a href="news-details.html"><img src="@/assets/images/resource/news-1.jpg"
                                         alt></a></figure>
                             <span class="date">17 <span class="month">APR</span></span>
                         </div>
@@ -32,7 +32,7 @@
                 <div class="news-block col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="news-details.html"><img src="../assets/images/resource/news-2.jpg"
+                            <figure class="image"><a href="news-details.html"><img src="@/assets/images/resource/news-2.jpg"
                                         alt></a></figure>
                             <span class="date">17 <span class="month">APR</span></span>
                         </div>
@@ -51,7 +51,7 @@
                 <div class="news-block col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="news-details.html"><img src="../assets/images/resource/news-3.jpg"
+                            <figure class="image"><a href="news-details.html"><img src="@/assets/images/resource/news-3.jpg"
                                         alt></a></figure>
                             <span class="date">17 <span class="month">APR</span></span>
                         </div>

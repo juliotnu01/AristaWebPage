@@ -1,11 +1,11 @@
 <template>
     <section class="banner-section-one">
-        <div class="bg bg-image" style="background-image: url(../assets/images/main-slider/home1-1.jpg)"></div>
+        <div class="bg bg-image" style="background-image: url(@/assets/images/main-slider/home1-1.jpg)"></div>
         <div class="floating-object">
-            <img src="../assets/images/icons/floating-obj2.png" alt class="image-1 bounce-y">
-            <img src="../assets/images/icons/floating-obj2.png" alt class="image-2 bounce-x">
-            <img src="../assets/images/main-slider/base1.png" alt class="image-3">
-            <img src="../assets/images/main-slider/base2-1.png" alt class="image-4">
+            <img src="@/assets/images/icons/floating-obj2.png" alt class="image-1 bounce-y">
+            <img src="@/assets/images/icons/floating-obj2.png" alt class="image-2 bounce-x">
+            <img src="@/assets/images/main-slider/base1.png" alt class="image-3">
+            <img src="@/assets/images/main-slider/base2-1.png" alt class="image-4">
         </div>
         <div class="bottom-shape"></div>
         <div class="auto-container">

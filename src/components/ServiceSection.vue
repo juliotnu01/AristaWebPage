@@ -17,7 +17,7 @@
                             <div class="text">Aliq is notm hendr erit a Latin augue insu establi shed fact</div>
                         </div>
                         <div class="image-box">
-                            <figure class="image overlay-anim"><img src="../assets/images/resource/service1-1.jpg" alt>
+                            <figure class="image overlay-anim"><img src="@/assets/images/resource/service1-1.jpg" alt>
                             </figure>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                             <div class="text">Aliq is notm hendr erit a Latin augue insu establi shed fact</div>
                         </div>
                         <div class="image-box">
-                            <figure class="image overlay-anim"><img src="../assets/images/resource/service1-2.jpg" alt>
+                            <figure class="image overlay-anim"><img src="@/assets/images/resource/service1-2.jpg" alt>
                             </figure>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             <div class="text">Aliq is notm hendr erit a Latin augue insu establi shed fact</div>
                         </div>
                         <div class="image-box">
-                            <figure class="image overlay-anim"><img src="../assets/images/resource/service1-3.jpg" alt>
+                            <figure class="image overlay-anim"><img src="@/assets/images/resource/service1-3.jpg" alt>
                             </figure>
                         </div>
                     </div>

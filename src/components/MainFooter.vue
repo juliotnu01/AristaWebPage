@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="footer-column col-sm-6 col-lg-3">
                         <div class="footer-widget about-widget">
-                            <div class="logo-box"><img src="../assets/images/logo-2.png" alt></div>
+                            <div class="logo-box"><img src="@/assets/images/logo-2.png" alt></div>
                             <div class="text">Lorem ipsum dolor at sit amet suffered simply tempor fames.</div>
                             <ul class="list-style-two">
                                 <li><a href="tel:+1234567890"><i class="fa-regular fa-phone-volume fa-fw"></i>
@@ -39,7 +39,7 @@
                             <h4 class="widget-title">Latest News</h4>
                             <div class="widget-content">
                                 <div class="post-item">
-                                    <div class="post-thumb"><img class="rounded-circle" src="../assets/images/resource/news-1.jpg"
+                                    <div class="post-thumb"><img class="rounded-circle" src="@/assets/images/resource/news-1.jpg"
                                             alt></div>
                                     <ul class="post-right">
                                         <li class="d-flex align-items-center posted-date mb-2">
@@ -54,7 +54,7 @@
                                     </ul>
                                 </div>
                                 <div class="post-item">
-                                    <div class="post-thumb"><img class="rounded-circle" src="../assets/images/resource/news-2.jpg"
+                                    <div class="post-thumb"><img class="rounded-circle" src="@/assets/images/resource/news-2.jpg"
                                             alt></div>
                                     <ul class="post-right">
                                         <li class="d-flex align-items-center posted-date mb-2">
@@ -75,17 +75,17 @@
                         <div class="footer-widget gallery-widget">
                             <h4 class="widget-title">Instagram</h4>
                             <div class="outer clearfix">
-                                <figure class="image"><a href="#"><img src="../assets/images/resource/insta-thumb-1.jpg" alt></a>
+                                <figure class="image"><a href="#"><img src="@/assets/images/resource/insta-thumb-1.jpg" alt></a>
                                 </figure>
-                                <figure class="image"><a href="#"><img src="../assets/images/resource/insta-thumb-2.jpg" alt></a>
+                                <figure class="image"><a href="#"><img src="@/assets/images/resource/insta-thumb-2.jpg" alt></a>
                                 </figure>
-                                <figure class="image"><a href="#"><img src="../assets/images/resource/insta-thumb-3.jpg" alt></a>
+                                <figure class="image"><a href="#"><img src="@/assets/images/resource/insta-thumb-3.jpg" alt></a>
                                 </figure>
-                                <figure class="image"><a href="#"><img src="../assets/images/resource/insta-thumb-4.jpg" alt></a>
+                                <figure class="image"><a href="#"><img src="@/assets/images/resource/insta-thumb-4.jpg" alt></a>
                                 </figure>
-                                <figure class="image"><a href="#"><img src="../assets/images/resource/insta-thumb-5.jpg" alt></a>
+                                <figure class="image"><a href="#"><img src="@/assets/images/resource/insta-thumb-5.jpg" alt></a>
                                 </figure>
-                                <figure class="image"><a href="#"><img src="../assets/images/resource/insta-thumb-6.jpg" alt></a>
+                                <figure class="image"><a href="#"><img src="@/assets/images/resource/insta-thumb-6.jpg" alt></a>
                                 </figure>
                             </div>
                         </div>
