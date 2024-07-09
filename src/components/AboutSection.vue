@@ -7,10 +7,10 @@
                     <div class="inner-column wow fadeInLeft">
                         <figure class="image-1 overlay-anim wow fadeInUp">
                             <div class="animated-circle bounce-x"></div>
-                            <img src="../assets/images/resource/about1-1.jpg" alt>
+                            <img src="@/assets/images/resource/about1-1.jpg" alt>
                         </figure>
                         <figure class="image-2 overlay-anim wow fadeInUp">
-                            <img src="../assets/images/resource/about1-2.jpg" alt>
+                            <img src="@/assets/images/resource/about1-2.jpg" alt>
                         </figure>
                         <div class="video-box">
                             <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn"

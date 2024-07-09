@@ -19,7 +19,7 @@
                             <div class="inner-box">
                                 <div class="image-box">
                                     <figure class="image"><a href="page-team-details.html"><img
-                                                src="../assets/images/resource/team1-1.jpg" alt></a></figure>
+                                                src="@/assets/images/resource/team1-1.jpg" alt></a></figure>
                                     <div class="social-links">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -37,7 +37,7 @@
                             <div class="inner-box">
                                 <div class="image-box">
                                     <figure class="image"><a href="page-team-details.html"><img
-                                                src="../assets/images/resource/team1-2.jpg" alt></a></figure>
+                                                src="@/assets/images/resource/team1-2.jpg" alt></a></figure>
                                     <div class="social-links">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -55,7 +55,7 @@
                             <div class="inner-box">
                                 <div class="image-box">
                                     <figure class="image"><a href="page-team-details.html"><img
-                                                src="../assets/images/resource/team1-3.jpg" alt></a></figure>
+                                                src="@/assets/images/resource/team1-3.jpg" alt></a></figure>
                                     <div class="social-links">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -73,7 +73,7 @@
                             <div class="inner-box">
                                 <div class="image-box">
                                     <figure class="image"><a href="page-team-details.html"><img
-                                                src="../assets/images/resource/team1-4.jpg" alt></a></figure>
+                                                src="@/assets/images/resource/team1-4.jpg" alt></a></figure>
                                     <div class="social-links">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Nexus - IT Solutions HTML Template
 
 Template Name: Nexus
@@ -35,11 +34,16 @@ License: copyright commercial
 25. Clients Section
 26. Main Footer
 **********************************************/
+/* 
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&amp;family=Poppins:wght@400;600&amp;display=swap");
-@import url("animate.css");
-@import url("owl.css");
+*/
+@import url("animate.css"); 
+/* @import url("owl.css"); */
+/* 
 @import url("swiper.min.css");
 @import url("jquery.fancybox.min.css");
+*/
 @import url("jquery-ui.css");
 @import url("linear.css");
 @import url("select2.min.css");
@@ -729,7 +733,7 @@ li {
   margin-top: -60px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/icons/preloader.gif);
+  background-image: url(@/assets/images/icons/preloader.gif);
   background-size: 64px;
   content: "";
 }
@@ -1088,57 +1092,57 @@ Scroll To Top style
 }
 
 .bg-pattern-1 {
-  background-image: url(../images/icons/pattern-1.png);
+  background-image: url(@/assets/images/icons/pattern-1.png);
 }
 
 .bg-pattern-2 {
-  background-image: url(../images/icons/pattern-2.png);
+  background-image: url(@/assets/images/icons/pattern-2.png);
   background-position: top;
 }
 
 .bg-pattern-3 {
-  background-image: url(../images/icons/pattern-3.html);
+  /* background-image: url(@/assets/images/icons/pattern-3.html); */
 }
 
 .bg-pattern-3-dark {
-  background-image: url(../images/icons/pattern-3-dark.html);
+  /* background-image: url(@/assets/images/icons/pattern-3-dark.html); */
 }
 
 .bg-pattern-4 {
-  background-image: url(../images/icons/pattern-4.html);
+  /* background-image: url(@/assets/images/icons/pattern-4.html); */
 }
 
 .bg-pattern-5 {
-  background-image: url(../images/icons/pattern-5.html);
+  /* background-image: url(@/assets/images/icons/pattern-5.html); */
 }
 
 .bg-pattern-6 {
-  background-image: url(../images/icons/pattern-6.html);
+  /* background-image: url(@/assets/images/icons/pattern-6.html); */
 }
 
 .bg-pattern-7 {
-  background-image: url(../images/icons/pattern-7.html);
+  /* background-image: url(@/assets/images/icons/pattern-7.html); */
 }
 
 .bg-pattern-8 {
-  background-image: url(../images/icons/pattern-8.html);
+  /* background-image: url(@/assets/images/icons/pattern-8.html); */
 }
 
 .bg-pattern-9 {
-  background-image: url(../images/icons/pattern-9.html);
+  /* background-image: url(@/assets/images/icons/pattern-9.html); */
 }
 
 .bg-pattern-10 {
-  background-image: url(../images/icons/pattern-10.html);
+  /* background-image: url(@/assets/images/icons/pattern-10.html); */
 }
 
 .bg-shape1 {
-  background-image: url(../images/icons/bg-shape1.png);
+  background-image: url(@/assets/images/icons/bg-shape1.png);
   background-position: center top;
 }
 
 .footer-bg {
-  background-image: url(../images/background/footer-bg1.png);
+  background-image: url(@/assets/images/background/footer-bg1.png);
   opacity: 0.1;
 }
 
@@ -1933,7 +1937,7 @@ Scroll To Top style
 }
 
 .icon-ac {
-  background-image: url(../images/icons/ac1.png);
+  background-image: url(@/assets/images/icons/ac1.png);
   background-size: cover;
   display: block;
   height: 175px;
@@ -1944,19 +1948,19 @@ Scroll To Top style
 .icon-dots {
   height: 385px;
   width: 103px;
-  background-image: url(../images/icons/icon-dots.html);
+  /* background-image: url(@/assets/images/icons/icon-dots.html); */
 }
 
 .icon-dots-one {
   width: 141px;
   height: 145px;
-  background-image: url(../images/icons/icon-dots.html);
+  /* background-image: url(@/assets/images/icons/icon-dots.html); */
 }
 
 .icon-arrow-up {
   width: 48px;
   height: 123px;
-  background-image: url(../images/icons/arrow-up.html);
+  /* background-image: url(@/assets/images/icons/arrow-up.html); */
 }
 
 .bounce-y {
@@ -4243,7 +4247,7 @@ Section Title
   z-index: 1;
 }
 .banner-section-one .bottom-shape {
-  background-image: url(../images/main-slider/bottom-shape.png);
+  background-image: url(@/assets/images/main-slider/bottom-shape.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4684,7 +4688,7 @@ Section Title
   }
 }
 .banner-section-three:before {
-  background-image: url(../images/background/banner-bg1.png);
+  background-image: url(@/assets/images/background/banner-bg1.png);
   background-repeat: no-repeat;
   bottom: 0;
   content: "";
@@ -4705,7 +4709,7 @@ Section Title
   }
 }
 .banner-section-three .content-box {
-  background-image: url(../images/icons/01.png);
+  background-image: url(@/assets/images/icons/01.png);
   background-repeat: no-repeat;
   margin: 300px 0 180px;
   max-width: 615px;
@@ -4788,7 +4792,7 @@ Section Title
 }
 .features-section .outer-box {
   background-color: var(--bg-theme-color1);
-  background-image: url(../images/icons/bg-shape2.png);
+  background-image: url(@/assets/images/icons/bg-shape2.png);
   margin-bottom: -100px;
   padding: 60px 80px;
 }
@@ -5314,7 +5318,7 @@ Section Title
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  background-image: url(../images/icons/bg-text.jpg);
+  background-image: url(@/assets/images/icons/bg-text.jpg);
   background-size: contain;
   text-align: center;
 }
@@ -6530,7 +6534,7 @@ Section Title
 ====================================================================
 ***/
 .about-section-nine {
-  background-image: url(../images/background/bg12.jpg);
+  background-image: url(@/assets/images/background/bg12.jpg);
   background-position: center center;
   background-size: cover;
   padding: 120px 0;
@@ -6538,7 +6542,7 @@ Section Title
 }
 @media only screen and (max-width: 1023px) {
   .about-section-nine {
-    background-image: url(../images/background/home6-funfact-bg.png);
+    background-image: url(@/assets/images/background/home6-funfact-bg.png);
   }
 }
 .about-section-nine:before {
@@ -7220,7 +7224,7 @@ Section Title
   }
 }
 .call-to-action.style-two {
-  background-image: url(../images/main-slider/home1-1.jpg);
+  background-image: url(@/assets/images/main-slider/home1-1.jpg);
   background-position: center center;
   background-size: cover;
   padding: 30px 0;
@@ -7238,7 +7242,7 @@ Section Title
   padding: 75px 0;
 }
 .call-to-action.style-three {
-  background-image: url(../images/background/bg7.jpg);
+  background-image: url(@/assets/images/background/bg7.jpg);
   background-position: center center;
   background-size: cover;
   padding: 30px 0;
@@ -7271,7 +7275,7 @@ Section Title
   opacity: 1;
 }
 .call-to-action.style-four {
-  background-image: url(../images/background/bg7.jpg);
+  background-image: url(@/assets/images/background/bg7.jpg);
   background-position: center center;
   background-size: cover;
   padding: 30px 0;
@@ -7295,7 +7299,7 @@ Section Title
   width: 110px;
 }
 .call-to-action.style-five {
-  background-image: url(../images/background/bg2.jpg);
+  background-image: url(@/assets/images/background/bg2.jpg);
   background-position: center top;
   background-size: cover;
   padding: 30px 0;
@@ -7374,7 +7378,7 @@ Section Title
 ====================================================================
 ***/
 .fun-fact-section {
-  background-image: url(../images/icons/ac-flow.jpg);
+  background-image: url(@/assets/images/icons/ac-flow.jpg);
   border-top: 10px solid var(--theme-color1);
   padding: 120px 0 80px;
   position: relative;
@@ -7469,7 +7473,7 @@ Section Title
 ====================================================================
 ***/
 .fun-fact-section-two {
-  background-image: url(../images/background/home6-funfact-bg.png);
+  background-image: url(@/assets/images/background/home6-funfact-bg.png);
   padding: 120px 0 100px;
   position: relative;
 }
@@ -7692,7 +7696,7 @@ Section Title
   }
 }
 .process-section:before {
-  background-image: url(../images/icons/bg-shape5.png);
+  background-image: url(@/assets/images/icons/bg-shape5.png);
   background-repeat: no-repeat;
   bottom: 0;
   content: "";
@@ -7943,7 +7947,7 @@ Section Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/icons/shape-7.html);
+  /* background-image: url(@/assets/images/icons/shape-7.html); */
   content: "";
 }
 .gallery-section .title-box .inner {
@@ -8069,7 +8073,7 @@ Section Title
   position: absolute;
   left: 100px;
   top: -50px;
-  background-image: url(../images/main-slider/shape-2.png);
+  background-image: url(@/assets/images/main-slider/shape-2.png);
   background-repeat: no-repeat;
   background-position: center;
   min-height: 93px;
@@ -8408,7 +8412,7 @@ Section Title
 ====================================================================
 ***/
 .testimonial-section-two {
-  background-image: url(../images/background/bg9.jpg);
+  background-image: url(@/assets/images/background/bg9.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   padding: 120px 0;
@@ -8555,13 +8559,13 @@ Section Title
   z-index: 1;
 }
 .testimonial-section-three .owl-dots .owl-dot:first-child {
-  background-image: url(../images/resource/testi-thumb-1.jpg);
+  background-image: url(@/assets/images/resource/testi-thumb-1.jpg);
 }
 .testimonial-section-three .owl-dots .owl-dot:nth-child(2) {
-  background-image: url(../images/resource/testi-thumb-2.jpg);
+  background-image: url(@/assets/images/resource/testi-thumb-2.jpg);
 }
 .testimonial-section-three .owl-dots .owl-dot:nth-child(3) {
-  background-image: url(../images/resource/testi-thumb-3.jpg);
+  background-image: url(@/assets/images/resource/testi-thumb-3.jpg);
 }
 .testimonial-section-three .owl-dots .owl-dot.active {
   border: 3px solid var(--theme-color2);
@@ -8661,7 +8665,7 @@ Section Title
   }
 }
 .video-section-two:before {
-  background-image: url(../images/icons/pattern-3.png);
+  background-image: url(@/assets/images/icons/pattern-3.png);
   bottom: 0;
   content: "";
   position: absolute;
@@ -8753,7 +8757,7 @@ Section Title
 }
 .why-choose-us:before {
   background-color: #232331;
-  background-image: url(../images/icons/circles1.png);
+  background-image: url(@/assets/images/icons/circles1.png);
   background-position: center left;
   background-repeat: no-repeat;
   bottom: 0;
@@ -8949,7 +8953,7 @@ Section Title
   position: relative;
 }
 .why-choose-us-two .content-column {
-  background-image: url(../images/pattern/pattern-1.jpg);
+  background-image: url(@/assets/images/pattern/pattern-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 70px 60px 50px;
@@ -9025,7 +9029,7 @@ Section Title
   position: relative;
 }
 .why-choose-us-two .image-column .inner-column .img-box-1 {
-  background-image: url(../images/background/bg5.jpg);
+  background-image: url(@/assets/images/background/bg5.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9033,7 +9037,7 @@ Section Title
   width: 100%;
 }
 .why-choose-us-two .image-column .inner-column .img-box-2 {
-  background-image: url(../images/background/bg6.jpg);
+  background-image: url(@/assets/images/background/bg6.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9045,7 +9049,7 @@ Section Title
       -ms-flex-align: center;
           align-items: center;
   background-color: #19232B;
-  background-image: url(../images/icons/dot-map.png);
+  background-image: url(@/assets/images/icons/dot-map.png);
   background-position: center center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -9197,7 +9201,7 @@ Section Title
   text-align: center;
 }
 .why-choose-us-three:before {
-  background-image: url(../images/icons/circles1.png);
+  background-image: url(@/assets/images/icons/circles1.png);
   background-position: center left;
   background-repeat: no-repeat;
   bottom: 0;
@@ -9340,7 +9344,7 @@ Section Title
 }
 .why-choose-us-four:before {
   background-color: var(--theme-color2);
-  background-image: url(../images/icons/circles1.png);
+  background-image: url(@/assets/images/icons/circles1.png);
   background-position: center center;
   background-repeat: no-repeat;
   bottom: 0;
@@ -9648,13 +9652,13 @@ Section Title
 }
 .team-section.home6-bg {
   background-color: var(--theme-color-light);
-  background-image: url(../images/background/home6-team-bg.png);
+  background-image: url(@/assets/images/background/home6-team-bg.png);
   background-size: cover;
   background-position: center bottom;
 }
 .team-section.home7-bg {
   background-color: var(--theme-color-light);
-  background-image: url(../images/icons/map.png);
+  background-image: url(@/assets/images/icons/map.png);
   background-size: cover;
   background-position: center bottom;
 }
@@ -10393,7 +10397,7 @@ Section Title
   }
 }
 .contact-section:after {
-  background-image: url(../images/icons/bg-shape3.png);
+  background-image: url(@/assets/images/icons/bg-shape3.png);
   background-repeat: no-repeat;
   background-size: contain;
   bottom: 0;
@@ -10405,7 +10409,7 @@ Section Title
   z-index: -1;
 }
 .contact-section .bg-img4 {
-  background-image: url(../images/background/bg4.jpg);
+  background-image: url(@/assets/images/background/bg4.jpg);
   height: 615px;
   left: auto;
   position: absolute;
@@ -10706,7 +10710,7 @@ Section Title
 }
 .contact-section-three:after {
   background-color: var(--theme-color2);
-  background-image: url(../images/icons/curve-lines.png);
+  background-image: url(@/assets/images/icons/curve-lines.png);
   background-repeat: no-repeat;
   background-size: contain;
   bottom: 0;
@@ -10733,7 +10737,7 @@ Section Title
   }
 }
 .contact-section-three .bg-img4 {
-  background-image: url(../images/icons/map.png);
+  background-image: url(@/assets/images/icons/map.png);
   height: 615px;
   left: 0;
   position: absolute;
@@ -10886,7 +10890,7 @@ Section Title
 ***/
 .project-section {
   background-color: #19232B;
-  background-image: url(../images/icons/dot-map.png);
+  background-image: url(@/assets/images/icons/dot-map.png);
   background-position: center center;
   background-repeat: no-repeat;
   padding: 120px 0 80px;
@@ -11267,7 +11271,7 @@ Section Title
   position: relative;
 }
 .project-section-three:before {
-  background-image: url(../images/icons/bg-shape6.png);
+  background-image: url(@/assets/images/icons/bg-shape6.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11805,7 +11809,7 @@ Section Title
 
 .clients-section-two {
   background-color: #19232B;
-  background-image: url(../images/icons/dot-map.png);
+  background-image: url(@/assets/images/icons/dot-map.png);
   background-position: center center;
   padding: 400px 0 0;
   position: relative;
@@ -11841,7 +11845,7 @@ Section Title
   width: 100%;
 }
 .offer-section:after {
-  background-image: url(../images/icons/bg-shape4.png);
+  background-image: url(@/assets/images/icons/bg-shape4.png);
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
@@ -12251,7 +12255,7 @@ Section Title
 ==================================================================
 ***/
 .offer-section-three {
-  background-image: url(../images/background/bg8.jpg);
+  background-image: url(@/assets/images/background/bg8.jpg);
   background-position: center center;
   background-size: cover;
   padding: 120px 0 0;
@@ -12942,7 +12946,7 @@ Section Title
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url(../images/icons/pattern-7.html);
+  /* background-image: url(@/assets/images/icons/pattern-7.html); */
   background-repeat: no-repeat;
   background-position: left top;
   z-index: -1;
@@ -12965,7 +12969,7 @@ Section Title
   width: 100%;
   z-index: 2;
   content: "";
-  background-image: url(../images/icons/pattern-3.png);
+  background-image: url(@/assets/images/icons/pattern-3.png);
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -13007,16 +13011,16 @@ Section Title
   transform: rotate(10deg) scale(1.2);
 }
 .category-block .inner-box.cat-bg-1:before {
-  background-image: url(../images/icons/cat-1-bg.html);
+  /* background-image: url(@/assets/images/icons/cat-1-bg.html); */
 }
 .category-block .inner-box.cat-bg-2:before {
-  background-image: url(../images/icons/cat-2-bg.html);
+  /* background-image: url(@/assets/images/icons/cat-2-bg.html); */
 }
 .category-block .inner-box.cat-bg-3:before {
-  background-image: url(../images/icons/cat-3-bg.html);
+  /* background-image: url(@/assets/images/icons/cat-3-bg.html); */
 }
 .category-block .inner-box.cat-bg-4:before {
-  background-image: url(../images/icons/cat-4-bg.html);
+  /* background-image: url(@/assets/images/icons/cat-4-bg.html); */
 }
 .category-block .image {
   position: relative;
@@ -13266,7 +13270,7 @@ Section Title
   bottom: 0;
   height: 50px;
   width: 100%;
-  background-image: url(../images/icons/pattern-11.html);
+  /* background-image: url(@/assets/images/icons/pattern-11.html); */
   background-position: center bottom;
   content: "";
 }
@@ -13295,7 +13299,7 @@ Section Title
   bottom: 0;
   height: 70%;
   width: 100%;
-  background: url(../images/icons/shape-7.html) top left no-repeat;
+  /* background: url(@/assets/images/icons/shape-7.html) top left no-repeat; */
   content: "";
 }
 
@@ -13534,7 +13538,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background: url(../images/icons/pattern-7.html) left bottom no-repeat;
+  /* background: url(@/assets/images/icons/pattern-7.html) left bottom no-repeat; */
   background-size: 700px;
 }
 
@@ -16365,7 +16369,7 @@ Sidebar
 }
 .main-footer.home5-style:before {
   background-color: #100F12;
-  background-image: url(../images/background/bg10.jpg);
+  background-image: url(@/assets/images/background/bg10.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   bottom: 0;
