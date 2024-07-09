@@ -2,7 +2,7 @@
     <div class="header-lower">
         <div class="main-box">
             <div class="logo-box">
-                <div class="logo"><a href="index.html"><img src="../assets/images/logo.png" alt title="Nexus"></a></div>
+                <div class="logo"><a href="index.html"><img src="@/assets/images/logo.png" alt title="Nexus"></a></div>
             </div>
             <div class="nav-outer">
                 <nav class="nav main-menu">
